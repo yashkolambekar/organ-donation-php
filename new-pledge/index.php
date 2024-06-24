@@ -46,13 +46,13 @@ if(isset($_POST["fullname"])){
                     <label for="fullname">
                         <p class="text-[0.7em]">Full Name</p>
                     </label>
-                    <input name="fullname" id="fullname" class="min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="text" placeholder="Divija Rupesh Patil">
+                    <input name="fullname" id="fullname" class="md:min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="text" placeholder="Divija Rupesh Patil">
                 </div>
                 <div class="mt-4">
                     <label for="age">
                         <p class="text-[0.7em]">Age</p>
                     </label>
-                    <input name="age" id="age" required class="min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="23">
+                    <input name="age" id="age" required class="md:min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="23">
                 </div>
                 <div class="mt-4">
                     <label for="">
@@ -75,13 +75,13 @@ if(isset($_POST["fullname"])){
                     <label for="medicalid">
                         <p class="text-[0.7em]">Medical ID</p>
                     </label>
-                    <input name="medicalid" id="medicalid" class="min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="">
+                    <input name="medicalid" id="medicalid" class="md:min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="">
                 </div>
                 <div class="mt-4">
                     <label for="bloodgroup">
                         <p class="text-[0.7em]">Blood Group</p>
                     </label>
-                    <select id="bloodgroup" name="bloodgroup" required class="min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="">
+                    <select id="bloodgroup" name="bloodgroup" required class="md:min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="">
                         <option disabled selected>--SELECT--</option>
                         <option value="A-">A-</option>
                         <option value="A+">A+</option>
@@ -117,13 +117,13 @@ if(isset($_POST["fullname"])){
                 <div class="mt-4">
                     <label for="weight">
                         <p  class="text-[0.7em]">Weight (kg)</p>
-                        <input required name="weight" id="weight" class="min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="53">
+                        <input required name="weight" id="weight" class="md:min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="53">
                     </label>
                 </div>
                 <div class="mt-4">
                     <label for="height">
                         <p class="text-[0.7em]">Height (cm)</p>
-                        <input id="height" required name="height" class="min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="121">
+                        <input id="height" required name="height" class="md:min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="121">
                     </label>
                 </div>
                 <div class="py-4">
