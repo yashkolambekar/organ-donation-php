@@ -16,7 +16,7 @@ if(isset($_POST["fullname"])){
 
     $organs = implode(", ",$_POST["organ"]);
 
-    $stmt = $db->prepare("INSERT INTO `pledges` (full_name, age, gender, medical_id, bloodgroup, organs, weight, height, hospital) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    $stmt = $db->prepare("INSERT INTO `receivers` (full_name, age, gender, medical_id, bloodgroup, organs, weight, height, hospital) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
     $stmt->bind_param("sissssiis", $_POST["fullname"], $_POST["age"], $_POST["gender"], $_POST["medical_id"], $_POST["bloodgroup"], $organs, $_POST["weight"], $_POST["height"], $_POST["hospital"]);
     $result = $stmt->execute();
 
@@ -38,7 +38,7 @@ if(isset($_POST["fullname"])){
 
 
     <div class="p-10 bg-[#FFE3D7] min-h-[600px] flex flex-col items-center">
-        <p class="text-2xl">Register a Pledge</p>
+        <p class="text-2xl">Register a Receiver</p>
 
         <div class="bg-[#871c17] p-10 rounded-xl mt-4 text-white">
             <?php include "../components/form.php" ?>

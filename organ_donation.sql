@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 24, 2024 at 10:49 PM
+-- Generation Time: Jun 24, 2024 at 11:45 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -34,6 +34,27 @@ CREATE TABLE `pledges` (
   `gender` varchar(10) NOT NULL,
   `medical_id` varchar(255) DEFAULT NULL,
   `bloodgroup` varchar(3) NOT NULL,
+  `hospital` varchar(255) NOT NULL,
+  `organs` varchar(255) NOT NULL,
+  `weight` int(3) NOT NULL,
+  `height` int(5) NOT NULL,
+  `created_on` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `receivers`
+--
+
+CREATE TABLE `receivers` (
+  `id` int(11) NOT NULL DEFAULT 0,
+  `full_name` varchar(255) NOT NULL,
+  `age` int(4) NOT NULL,
+  `gender` varchar(10) NOT NULL,
+  `medical_id` varchar(255) DEFAULT NULL,
+  `bloodgroup` varchar(3) NOT NULL,
+  `hospital` varchar(255) NOT NULL,
   `organs` varchar(255) NOT NULL,
   `weight` int(3) NOT NULL,
   `height` int(5) NOT NULL,
@@ -48,6 +69,12 @@ CREATE TABLE `pledges` (
 -- Indexes for table `pledges`
 --
 ALTER TABLE `pledges`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `receivers`
+--
+ALTER TABLE `receivers`
   ADD PRIMARY KEY (`id`);
 
 --

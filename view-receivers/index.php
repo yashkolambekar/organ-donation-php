@@ -36,7 +36,7 @@ $is_home = false;
 
             include "../sql/db.php";
 
-            $stmt = $db->prepare("SELECT * FROM `pledges`");
+            $stmt = $db->prepare("SELECT * FROM `receivers`");
             $result = $stmt->execute();
             if ($result) {
                 $rows = $stmt->get_result();
