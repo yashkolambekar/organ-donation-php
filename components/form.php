@@ -1,15 +1,15 @@
-<form action="" method="post">
+<form class="max-w-[100%]" action="" method="post">
                 <div class="mt-4">
                     <label for="fullname">
                         <p class="text-[0.7em]">Full Name</p>
                     </label>
-                    <input name="fullname" id="fullname" class="md:min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="text" placeholder="Divija Rupesh Patil">
+                    <input name="fullname" id="fullname" class="md:min-w-[400px] max-w-[100%]  md:max-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="text" placeholder="Divija Rupesh Patil">
                 </div>
                 <div class="mt-4">
                     <label for="age">
                         <p class="text-[0.7em]">Age</p>
                     </label>
-                    <input name="age" id="age" required class="md:min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="23">
+                    <input name="age" id="age" required class="md:min-w-[400px] max-w-[100%]  md:max-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="23">
                 </div>
                 <div class="mt-4">
                     <label for="">
@@ -32,13 +32,13 @@
                     <label for="medicalid">
                         <p class="text-[0.7em]">Medical ID</p>
                     </label>
-                    <input name="medicalid" id="medicalid" class="md:min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="">
+                    <input name="medicalid" id="medicalid" class="md:min-w-[400px] max-w-[100%]  md:max-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="">
                 </div>
                 <div class="mt-4">
                     <label for="bloodgroup">
                         <p class="text-[0.7em]">Blood Group</p>
                     </label>
-                    <select id="bloodgroup" name="bloodgroup" required class="md:min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="">
+                    <select id="bloodgroup" name="bloodgroup" required class="md:min-w-[400px] max-w-[100%]  md:max-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="">
                         <option disabled selected>--SELECT--</option>
                         <option value="A-">A-</option>
                         <option value="A+">A+</option>
@@ -54,7 +54,7 @@
                     <label for="hospital">
                         <p class="text-[0.7em]">Hospital</p>
                     </label>
-                    <select id="hospital" name="hospital" required class="md:min-w-[400px]  md:max-w-[400px] p-2 rounded bg-[#360c0a] mt-1" placeholder="">
+                    <select id="hospital" name="hospital" required class=" md:min-w-[400px] max-w-[100%]  md:max-w-[400px] p-2 rounded bg-[#360c0a] mt-1" placeholder="">
                         <option disabled selected>--SELECT--</option>
                         <option value="Apollo Hospital Navi Mumbai.">Apollo Hospital Navi Mumbai.</option>
                         <option value="Asian Heart Institute, Bandra">Asian Heart Institute, Bandra</option>
@@ -89,13 +89,13 @@
                 <div class="mt-4">
                     <label for="weight">
                         <p  class="text-[0.7em]">Weight (kg)</p>
-                        <input required name="weight" id="weight" class="md:min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="53">
+                        <input required name="weight" id="weight" class="md:min-w-[400px] max-w-[100%]  md:max-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="53">
                     </label>
                 </div>
                 <div class="mt-4">
                     <label for="height">
                         <p class="text-[0.7em]">Height (cm)</p>
-                        <input id="height" required name="height" class="md:min-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="121">
+                        <input id="height" required name="height" class="md:min-w-[400px] max-w-[100%]  md:max-w-[400px] p-2 rounded bg-[#360c0a] mt-1" type="number" placeholder="121">
                     </label>
                 </div>
                 <div class="py-4">

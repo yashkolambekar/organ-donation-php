@@ -37,10 +37,10 @@ if(isset($_POST["fullname"])){
     <?php include "../components/header.php" ?>
 
 
-    <div class="p-10 bg-[#FFE3D7] min-h-[600px] flex flex-col items-center">
+    <div class="p-4 md:p-10 bg-[#FFE3D7] min-h-[600px] flex flex-col items-center">
         <p class="text-2xl">Register a Pledge</p>
 
-        <div class="bg-[#871c17] p-10 rounded-xl mt-4 text-white">
+        <div class="bg-[#871c17] p-10 rounded-xl mt-4 text-white max-w-[100%]">
             <?php include "../components/form.php" ?>
         </div>
 
